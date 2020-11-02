@@ -1,0 +1,137 @@
+/*@primary-color: #52c41a;
+
+@layout-header-height: 40px;
+@border-radius-base: 2px;*/
+
+.logo {
+    background-image: url("/static/img/logo.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 180px;
+    height: 62px;
+    margin: 4px 0 0 0;
+    background-size: 180px;
+}
+
+.site-layout {
+    overflow-y: auto;
+    overflow-x: hidden;
+	.site-layout-background {
+		background: #fff;
+    }
+    .buttonGroup{
+        button{
+            margin-left:8px;
+        }
+    }
+    .ant-btn-primary{
+        background-color: #3891C7;
+        border-color: #3891C7;
+        &:hover{
+            opacity: 0.7;
+            background-color: #fff;
+            color:#3891C7
+        }
+    }
+}
+
+.ant-layout{
+    background-color: #fff;
+    .ant-layout-header {
+        background-color: #fff;
+        height: auto;
+        
+    }
+}
+
+.ant-menu-horizontal{
+    border-bottom:none;
+}
+
+.ant-menu{
+    margin-top: 10px;
+    .ant-menu-item{
+        &.ant-menu-item-only-child {
+            font-weight: 600;
+            font-size: 15px;
+            color: #9b9b9b;
+            &.ant-menu-item-selected{
+                color: #4596C8;
+                border-bottom: 2px solid #4596C8
+            }
+        }
+    }
+}
+
+.articeTemplate{
+    background-color: #fff;
+}
+
+h1.ant-typography{
+    color: #9b9b9b;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+h2.ant-typography{
+    color: #3891C7;
+}
+
+.center{
+    text-align: center;
+}
+.ant-card{
+    .card-icon {
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        margin-left: -20px;
+        top: -24px;
+        left: 50%;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    &.ant-card-bordered {
+        border-radius: .6rem;
+        box-shadow: 0 2px 3px rgba(0,0,0,.2);
+        .ant-card-cover{
+            img{
+                border-top-right-radius: calc(.6rem - 1px);
+                border-top-left-radius: calc(.6rem - 1px);
+            }
+        }
+    }
+
+   .ant-card-meta-detail{
+        .ant-card-meta-title{
+            color: #191919;
+        }
+    }
+    .ant-card-body{
+        position: relative;
+    }
+}
+
+.ant-layout-footer{
+    background-color: #3891C7;
+}
+
+body{
+    color: #191919;
+    background: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+.steps-action{
+    .anticon{
+        font-size:40px;
+    }
+}

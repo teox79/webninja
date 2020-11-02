@@ -1,0 +1,19 @@
+{
+  "name": "webninja",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^4.7.3",
+    "less": "^3.12.2",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
